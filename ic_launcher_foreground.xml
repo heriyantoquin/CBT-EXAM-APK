@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Exam Paper / Tablet Outline centered in safe zone (30-78) -->
+    <path
+        android:pathData="M34,26 C31.8,26 30,27.8 30,30 L30,78 C30,80.2 31.8,82 34,82 L74,82 C76.2,82 78,80.2 78,78 L78,30 C78,27.8 76.2,26 74,26 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Exam Paper Header Banner (Navy/Blue) -->
+    <path
+        android:pathData="M30,30 C30,27.8 31.8,26 34,26 L74,26 C76.2,26 78,27.8 78,30 L78,38 L30,38 Z"
+        android:fillColor="#0284C7" />
+
+    <!-- Header Clip / Binding -->
+    <path
+        android:pathData="M46,23 C46,22 47,21 48,21 L60,21 C61,21 62,22 62,23 L62,28 C62,29 61,30 60,30 L48,30 C47,30 46,29 46,28 Z"
+        android:fillColor="#F59E0B" />
+
+    <!-- Row 1: Checkbox with Checkmark + Text Line -->
+    <path
+        android:pathData="M36,44 L44,44 L44,52 L36,52 Z"
+        android:fillColor="#10B981" />
+    <path
+        android:pathData="M38,48 L40,50 L43,45"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M48,46 L72,46 C73,46 73,48 72,48 L48,48 C47,48 47,46 48,46 Z"
+        android:fillColor="#94A3B8" />
+
+    <!-- Row 2: Radio Selection + Text Line -->
+    <path
+        android:pathData="M40,59 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"
+        android:fillColor="#2563EB" />
+    <path
+        android:pathData="M40,59 m-1.8,0 a1.8,1.8 0 1,0 3.6,0 a1.8,1.8 0 1,0 -3.6,0"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M48,58 L68,58 C69,58 69,60 68,60 L48,60 C47,60 47,58 48,58 Z"
+        android:fillColor="#94A3B8" />
+
+    <!-- Row 3: Question Row 3 -->
+    <path
+        android:pathData="M36,68 L44,68 L44,76 L36,76 Z"
+        android:fillColor="#F1F5F9"
+        android:strokeColor="#CBD5E1"
+        android:strokeWidth="1" />
+    <path
+        android:pathData="M48,70 L64,70 C65,70 65,72 64,72 L48,72 C47,72 47,70 48,70 Z"
+        android:fillColor="#CBD5E1" />
+
+    <!-- CBT Gold Seal / Star Badge in corner -->
+    <path
+        android:pathData="M70,68 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0"
+        android:fillColor="#F59E0B" />
+    <path
+        android:pathData="M70,64.5 L71.2,67 L73.8,67.2 L71.8,69 L72.4,71.5 L70,70.1 L67.6,71.5 L68.2,69 L66.2,67.2 L68.8,67 Z"
+        android:fillColor="#FFFFFF" />
+
+</vector>
